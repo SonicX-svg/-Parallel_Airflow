@@ -119,6 +119,6 @@ default_args = {
 dag = create_dag(
     'product_processing_dag',
     default_args,
-    '5 0 * * *'  # CRON выражение для ежедневного запуска
+    '0 0 5 * *'  # CRON выражение для ежедневного запуска
 )
 
